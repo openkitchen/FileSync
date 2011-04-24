@@ -6,3 +6,22 @@ Features:
 1. Auto script generation and distribution with Maven assembler/appassembler plugin
 2. Files synchronization between specified source/target folder, compared with file name, modified time and size
 3. Csv report generation about file synchronization.
+
+Build:
+Make sure maven is installed
+$mvn clean package
+$unzip -l FileSync-1.0-SNAPSHOT-distribution.zip 
+Archive:  FileSync-1.0-SNAPSHOT-distribution.zip
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+        0  04-24-2011 13:39   FileSync-1.0-SNAPSHOT/
+        0  04-24-2011 13:38   FileSync-1.0-SNAPSHOT/bin/
+     2896  04-24-2011 13:38   FileSync-1.0-SNAPSHOT/bin/FileSync.bat
+     3179  04-24-2011 13:38   FileSync-1.0-SNAPSHOT/bin/FileSync
+        0  04-24-2011 13:39   FileSync-1.0-SNAPSHOT/lib/
+   318588  04-24-2011 13:37   FileSync-1.0-SNAPSHOT/lib/appframework-1.03.jar
+    12591  04-24-2011 13:37   FileSync-1.0-SNAPSHOT/lib/swing-worker-1.1.jar
+   118119  04-24-2011 13:37   FileSync-1.0-SNAPSHOT/lib/swing-layout-1.0.3.jar
+   108317  04-24-2011 13:38   FileSync-1.0-SNAPSHOT/lib/FileSync-1.0-SNAPSHOT.jar
+---------                     -------
+   563690                     9 files
