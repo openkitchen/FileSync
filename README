@@ -1,0 +1,8 @@
+Introduction:
+
+FileSync is a project created help to learn maven, swing and basic java things.
+
+Features:
+1. Auto script generation and distribution with Maven assembler/appassembler plugin
+2. Files synchronization between specified source/target folder, compared with file name, modified time and size
+3. Csv report generation about file synchronization.
