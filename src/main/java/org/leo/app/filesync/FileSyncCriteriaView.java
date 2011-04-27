@@ -297,11 +297,15 @@ public class FileSyncCriteriaView extends FrameView {
 	@Action(block=BlockingScope.ACTION)
 	public Task generateReport() {
 	    String src = jTxtSrc.getText();
+            String tgt = jTxtTgt.getText();
 	    if (src == null || "".equals(src)) {
 	        JFrame mainFrame = FileSync.getApplication().getMainFrame();
 	        JOptionPane.showMessageDialog(mainFrame, "Eggs are not supposed to be green.");
-	    } else {
-                return new ReportTask(FileSync.getApplication(), src);
+	    } else if (tgt == null || "".equals(tgt)) {
+                JFrame mainFrame = FileSync.getApplication().getMainFrame();
+	        JOptionPane.showMessageDialog(mainFrame, "Eggs are not supposed to be green.");                 
+            } else {
+                return new ReportTask(FileSync.getApplication(), src, tgt);
 	    }
 
 	    return null;
