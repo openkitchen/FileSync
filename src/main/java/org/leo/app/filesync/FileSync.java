@@ -17,6 +17,7 @@ public class FileSync extends SingleFrameApplication {
      * At startup create and show the main frame of the application.
      */
     @Override protected void startup() {
+    	System.out.println("check out this");
         show(new FileSyncCriteriaView(this));
     }
 
