@@ -20,6 +20,7 @@
                     <target>1.6</target>
                 </configuration>
             </plugin>
+            <!--
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
@@ -51,7 +52,7 @@
                     </archive>
                 </configuration>
             </plugin>
-            <!--  
+            -->
             <plugin>
               <groupId>org.codehaus.mojo</groupId>
               <artifactId>appassembler-maven-plugin</artifactId>
@@ -92,7 +93,6 @@
                 </execution>
               </executions>
             </plugin>
-            -->
         </plugins>
     </build>
     <dependencies>
