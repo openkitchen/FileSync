@@ -6,6 +6,9 @@
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>FileSync</name>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
     <build>
         <plugins>
             <plugin>
@@ -49,7 +52,7 @@
                     </archive>
                 </configuration>
             </plugin>
-           --> 
+            -->
             <plugin>
               <groupId>org.codehaus.mojo</groupId>
               <artifactId>appassembler-maven-plugin</artifactId>
@@ -113,6 +116,11 @@
       <groupId>org.swinglabs</groupId>
       <artifactId>swing-layout</artifactId>
       <version>1.0.3</version>
+    </dependency>
+    <dependency>
+      <groupId>commons-io</groupId>
+      <artifactId>commons-io</artifactId>
+      <version>2.0.1</version>
     </dependency>
   </dependencies>
 </project>
