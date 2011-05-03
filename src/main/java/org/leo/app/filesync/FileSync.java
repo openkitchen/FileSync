@@ -1,7 +1,8 @@
 /*
  * FileSync.java
  * William added comments to this file.
- * Line one
+ * Line one // Paste it. This is how I reolve this, these two lines conflicts.
+ * Another comments added.
  */
 
 package org.leo.app.filesync;
